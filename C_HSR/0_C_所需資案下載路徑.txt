@@ -1,0 +1,4 @@
+models
+	https://drive.google.com/open?id=1UKoYedcdjhymxJlwps6od2wRnDudC2ms
+training data
+	https://drive.google.com/open?id=1oPTUq-7FnUVkVoLakel_vy8Z7z6wqlaj

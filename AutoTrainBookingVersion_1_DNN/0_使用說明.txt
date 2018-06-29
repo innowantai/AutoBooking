@@ -1,0 +1,30 @@
+
+1.至 https://www.anaconda.com/download/ 網站下載並安裝 Python 3.6 version 
+
+2.至 https://drive.google.com/open?id=1_OIzKPWRJyCRQ1daztcQ4x3-wCZrHbyW 下載所需安裝檔案資料夾
+
+3.若電腦無firefox瀏覽器,則安裝步驟(2)下載之資料夾理面的firefox安裝檔
+
+3.將步驟(2)下載之資料夾內的 geckodriver 檔案丟入 (1) 所安裝 Anaconda3資料夾內中
+
+4.將步驟(2)下載之資料夾內的 my_model_CNN2.h5檔案丟入 "程式碼"資料夾中
+
+5.從開始 -> 所有程式 之 Anaconda3 (64-bit) 資料夾中
+  開啟 Anaconda Prompet 黑窗 輸入 conda install -c conda-forge opencv  安裝此附件包
+
+6.執行 Anaconda Navigator
+
+7.啟動 Spyder
+
+8.於Spyder介面中開啟程式碼 "A_AutoBooking" 輸入相關資訊後 F5 執行
+	ps.第一次執行此程式碼，會花不少時間自動安裝許多套件
+
+
+
+
+
+
+
+
+
+
