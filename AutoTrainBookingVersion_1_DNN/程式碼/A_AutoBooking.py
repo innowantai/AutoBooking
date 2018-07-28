@@ -12,9 +12,7 @@ import time
 from bs4 import BeautifulSoup 
 from A_SplitFigureOBJ import *
 import datetime
-
- 
-
+asd
 
 # Please Input the information below after search those from Railways website
 person_id = 'P123456789'            # 身份證字號

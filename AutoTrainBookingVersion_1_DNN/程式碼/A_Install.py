@@ -2,7 +2,7 @@ import pip
 
 def AutoInstall():        
     pip.main(['install','selenium'])
-    pip.main(['install','PIL'])
+    pip.main(['install','pillow'])
     pip.main(['install','numpy'])
     pip.main(['install','keras'])
     pip.main(['install','bs4'])

@@ -18,7 +18,9 @@
 
 8.於Spyder介面中開啟程式碼 "A_AutoBooking" 輸入相關資訊後 F5 執行
 	ps.第一次執行此程式碼，會花不少時間自動安裝許多套件,如果套建安裝失敗在call我G_G
-
+	
+9.若無自動安裝套件則於步驟5之黑窗裝輸入 python -m pip install --upgrade pip==9.0.3 指令安裝玩此套建後再重新執行 
+### python -m pip install --upgrade pip
 
 
 
