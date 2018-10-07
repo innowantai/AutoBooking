@@ -1,19 +1,12 @@
 from PIL import Image
 import cv2
 import numpy as np
+import matplotlib
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
-import os
-import time
-import shutil
-
-
-
-
-
-
-
+import os 
+ 
 
 class HRSImgProcess():
     
@@ -35,27 +28,25 @@ class HRSImgProcess():
             fig = self.splitFigure(data)
             result = self.CatchingsplitFigure(fig) 
             SaveCreat = os.path.join(os.getcwd(),'0_OnlineIndex') 
+            #matplotlib.use('Agg')
             if not os.path.exists(SaveCreat):
-                os.mkdir(SaveCreat)
-            oldFiles = os.listdir(SaveCreat)
-            
-            for ff in oldFiles:
-                os.remove(os.path.join(SaveCreat,ff))
+                os.mkdir(SaveCreat) 
+                
              
             for kk,ff in enumerate(result):
-                saveName = os.path.join(os.getcwd(),'0_OnlineIndex', Name + '_'+ str(kk) + '.jpg')             
-                if not os.path.exists(saveName):
+                if kk <= 3 : 
+                    saveName = os.path.join(os.getcwd(),'0_OnlineIndex', Name + '_'+ str(kk) + '.jpg')    
                     plt.figure(figsize=(6,4), dpi = 100)
                     plt.imshow(ff) 
-                    plt.savefig(saveName,dpi=100)  
-            plt.close('all') 
+                    plt.savefig(saveName,dpi=100)   
+                    #tmp = Image.fromarray(ff) 
+                    #tmp = tmp.resize((600,400))
+                    #Image.Image.save(tmp,saveName) 
+                    plt.close('all') 
         
         except:
-            print('Have Error !')
-        
-        
-        
-        
+            print('___') 
+            
     
     def ImageCurveProcess(self,img):
         dimg = cv2.fastNlMeansDenoisingColored(img,None,35,35,7,21)

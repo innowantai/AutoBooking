@@ -10,6 +10,7 @@ from PIL import Image
 import re
 import time
 from bs4 import BeautifulSoup
+from keras.applications.vgg16 import VGG16
 
 def CatchingIDFigure():
     driver.save_screenshot('f1.jpg')
@@ -44,15 +45,14 @@ def FigureID_sub():
     Files_ = os.listdir(Path)
     Files = []
     for ff in Files_:
-        if ff.find('.jpg') != -1:
-            Files.append(ff) 
-            
+        if ff.find('.jpg') != -1 :
+            Files.append(ff)  
     baseH = 50
     digits = []   
     for ii,jj in enumerate(Files): 
         pil_image = PIL.Image.open(os.path.join(Path,jj)).convert('1') 
         baseW = int(pil_image.size[1]/pil_image.size[0]*baseH)
-        img = pil_image.resize((baseH,baseW),PIL.Image.ANTIALIAS)
+        img = pil_image.resize((50,33),PIL.Image.ANTIALIAS)
         digits.append([vv for vv in img.getdata()])
     digit_ary = np.array(digits) / 255
     
@@ -111,7 +111,7 @@ def Part1_InputInformation(driver):
         IDbox.send_keys(FigureID_sub())
         
         # Click confirm box 
-        Next = driver.find_element_by_id('SubmitButton').click()   
+        driver.find_element_by_id('SubmitButton').click()   
         check = CheckPage(driver,'查詢車次')
         if check != -1:        
             reset = driver.find_element_by_id('BookingS1Form_homeCaptcha_reCodeLink')
@@ -136,21 +136,15 @@ def Part3_TickInformationAndConfirm(driver,IDNumber,CellPhone):
     # submit
     submit = driver.find_element_by_id('isSubmit')
     submit.click()
-
-
-
+ 
  
 paraDic1 = {0: '2', 1: '3', 2: '4', 3: '5', 4: '7', 5: '9', 6: 'A', 7: 'C', 8: 'F', 9: 'H', 10: 'K', 11: 'M', 12: 'N', 13: 'P', 14: 'Q', 15: 'R', 16: 'T', 17: 'Y', 18: 'Z'}
 paraDic2 = {'2': 0, '3': 1, '4': 2, '5': 3, '7': 4, '9': 5, 'A': 6, 'C': 7, 'F': 8, 'H': 9, 'K': 10, 'M': 11, 'N': 12, 'P': 13, 'Q': 14, 'R': 15, 'T': 16, 'Y': 17, 'Z': 18}
-
-
-
+ 
 
 
 # Loading trained CNN model
-model = load_model('my_model_CNN_5000_2.h5')
-
-
+model = load_model('my_model_CNN_5000_2.h5') 
 
 # All Station select index show below
 Station = {'南港':'1','台北' :'2','板橋':'3','桃園':'4','新竹':'5','苗栗':'6','台中':'7','彰化':'8','雲林':'9','嘉義':'10','台南':'11','左營':'12'}
@@ -174,8 +168,7 @@ driver = webdriver.Firefox()
 driver.get('https://irs.thsrc.com.tw/IMINT/') 
  
 #Input = driver.find_element_by_id('action').send_keys('123')
-  
-
+   
 
 check_1 = Part1_InputInformation(driver)  
 
@@ -202,17 +195,8 @@ for vv in aa:
         vv2 = vv.find('span',{'id':'QueryArrival'})
         T_timeEnd.append(vv2.text)       
 
-Next2 = driver.find_element_by_name('SubmitButton').click()  
-
-
-
-
-
-
-
-
-
-
+Next2 = driver.find_element_by_name('SubmitButton').click() 
+ 
 Part3_TickInformationAndConfirm(driver,IDNumber,CellPhone)
      
 
