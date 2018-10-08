@@ -14,7 +14,9 @@ class DISCOUNT:
         features = model.predict(x_test) 
         features_compress = features.reshape(len(x_test),2*2*256)
         sim = self.cosine_similarity(features_compress)
-        self.IDres = sim[3:3+num,0:3]
+        self.idres = sim[3:3+num,0:3]
+        self.IDres = [np.where(rr == np.max(rr))[0][0] for rr in self.idres]
+        self.Index = np.where(self.IDres == np.min(self.IDres))[0][0]
     
     def cosine_similarity(self,ratings):
         sim = ratings.dot(ratings.T)
@@ -39,33 +41,27 @@ class DISCOUNT:
 
 
 
-#model = VGG16(weights='imagenet', include_top=False) 
- 
 
 
-
-def CatchingCountIMG():
-    driver.save_screenshot('f2.jpg')
-    eles =  driver.find_elements_by_tag_name("img")
-    kk = 0
-    for ele in eles: 
-        ll = ele.location['x']
-        rr = ele.location['x'] + ele.size['width']
-        top = ele.location['y']
-        bot = ele.location['y'] + ele.size['height']    
-        img = Image.open('f2.jpg')
-        img = img.crop((ll,top,rr,bot))
-        img = img.convert("RGB") 
-        img.save(os.path.join(os.getcwd(),'CmpIMG',('%02d' % kk) + '_IDFigure.jpg') )
-        kk = kk + 1
-    return kk 
-
-num = CatchingCountIMG()
-disc = DISCOUNT()
-disc.ID(model,num)
-res = disc.IDres
-
-
+# =============================================================================
+# asd
+# 
+# model = VGG16(weights='imagenet', include_top=False) 
+#  
+# 
+# 
+# 
+#  
+# 
+# num = CatchingCountIMG()
+# disc = DISCOUNT()
+# disc.ID(model,num) 
+# index = disc.Index
+# 
+# 
+# trainIter = driver.find_elements_by_name('TrainQueryDataViewPanel:TrainGroup')
+# trainIter[index].click()
+# =============================================================================
 
 
 

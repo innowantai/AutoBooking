@@ -97,6 +97,17 @@ def Part1_InputInformation(driver):
     # Time
     StartTime = Select(driver.find_element_by_name('toTimeTable'))
     StartTime.select_by_index('2')
+    # Booking methods
+    method1 = driver.find_element_by_id('bookingMethod_0')
+    method2 = driver.find_element_by_id('bookingMethod_1')
+    trainNumber = driver.find_element_by_name('toTrainIDInputField')
+    if bookingMethod == 1:
+        method1.click()
+    elif bookingMethod == 2:
+        method2.click()
+        trainNumber.send_keys(trainNumber)
+        
+    
     
     while check != -1:            
         # 3.Save Screenshot and catch ID-Figure
@@ -151,14 +162,15 @@ Station = {'南港':'1','台北' :'2','板橋':'3','桃園':'4','新竹':'5','�
 startSatation = '左營'
 destinationStation = '桃園'
 year = 2018
-month =  6
+month =  10
 day = 18
 IDNumber = 'P123863062123'
 CellPhone = '0970393967123'
 IDNumber = 'P123863062'
 CellPhone = '056314222'
 
-
+bookingMethod = 1
+trainNumber = 123
  
 
 
@@ -168,10 +180,10 @@ driver = webdriver.Firefox()
 driver.get('https://irs.thsrc.com.tw/IMINT/') 
  
 #Input = driver.find_element_by_id('action').send_keys('123')
-   
+ 
 
 check_1 = Part1_InputInformation(driver)  
-
+asd
 # Part 2 : Select Tarin Number
 select = driver.find_element_by_name('TrainQueryDataViewPanel:TrainGroup')
 radios = driver.find_elements_by_xpath("//*/input[@type='radio']")

@@ -5,7 +5,6 @@
 
 
 
-
 def TransDatafromToCNN(data):
     Num = data.shape[0] 
     Result = np.zeros((Num,33,50))  

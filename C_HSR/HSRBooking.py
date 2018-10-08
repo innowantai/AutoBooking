@@ -3,6 +3,7 @@ import re
 import PIL  
 import time
 import numpy as np  
+from DISCOUNT import DISCOUNT
 from PIL import Image
 from bs4 import BeautifulSoup
 from selenium import webdriver
@@ -17,21 +18,124 @@ class HSR():
         self.paraDic2 = {'2': 0, '3': 1, '4': 2, '5': 3, '7': 4, '9': 5, 'A': 6, 'C': 7, 'F': 8, 'H': 9, 'K': 10, 'M': 11, 'N': 12, 'P': 13, 'Q': 14, 'R': 15, 'T': 16, 'Y': 17, 'Z': 18}
         self.Station = {'南港':'1','台北' :'2','板橋':'3','桃園':'4','新竹':'5','苗栗':'6','台中':'7','彰化':'8','雲林':'9','嘉義':'10','台南':'11','左營':'12'}
     
-    def booking(self,startSatation,destinationStation,year,month,day,IDNumber,CellPhone):
+    def booking(self,startSatation,destinationStation,year,month,day,timeIndex,IDNumber,CellPhone,bookingMethod,trainNumber,earlyBird):
         self.startSatation = startSatation
         self.destinationStation = destinationStation
         self.year = year
         self.month =  month
         self.day = day 
+        self.timeIndex = timeIndex
         self.IDNumber = IDNumber
         self.CellPhone = CellPhone
+        self.bookingMethod = bookingMethod
+        self.trainNumber = trainNumber
+        self.earlyBird = earlyBird
         self.model = load_model('my_model_CNN_5000_2.h5') 
+        self.VGGmodel = VGG16(weights='imagenet', include_top=False) 
         self.Input_Date = str(year) + '/' + '%02d' % month + '/' + '%02d' % day
         
-        driver = webdriver.Firefox()
-        driver.get('https://irs.thsrc.com.tw/IMINT/')
-        check_1 = self.Part1_InputInformation(driver) 
-        self.Drive = driver
+        self.driver = webdriver.Firefox()
+        self.driver.get('https://irs.thsrc.com.tw/IMINT/')
+        
+        self.Part1_InputInformation()  
+        
+        self.Part2_selectTrainNumber()
+        
+        self.Part3_TickInformationAndConfirm(self.IDNumber,self.CellPhone)
+
+    def Part1_InputInformation(self):
+        check = 0     
+        # Setting the booked information 
+        # 1.Start and destination station setting
+        Start = Select(self.driver.find_element_by_name('selectStartStation'))
+        Destination = Select(self.driver.find_element_by_name('selectDestinationStation'))
+        Start.select_by_index(self.Station[self.startSatation])
+        Destination.select_by_index(self.Station[self.destinationStation])
+        
+        # 2.Date and time Setting 
+        # Date
+        TimeSpan = self.driver.find_element_by_id('toDate')
+        DateSetting = TimeSpan.find_element_by_name('toTimeInputField')
+        DateSetting.clear()
+        DateSetting.send_keys(self.Input_Date)
+        # Time
+        StartTime = Select(self.driver.find_element_by_name('toTimeTable'))
+        StartTime.select_by_index(self.timeIndex)
+        
+        # Booking methods
+        method1 = self.driver.find_element_by_id('bookingMethod_0')
+        method2 = self.driver.find_element_by_id('bookingMethod_1')
+        trainNumber = self.driver.find_element_by_name('toTrainIDInputField')
+        if self.bookingMethod == 1:
+            method1.click()
+            if self.earlyBird == 1:
+                self.driver.find_element_by_id('onlyQueryOffPeakCheckBox').click()
+        elif self.bookingMethod == 2:
+            method2.click()
+            trainNumber.send_keys(self.trainNumber)
+        
+        while check != -1:            
+            # 3.Save Screenshot and catch ID-Figure
+            self.CatchingIDFigure(self.driver)
+            Img = HRSImgProcess()
+            Img.IMGProcess('IDFigure.jpg')
+            
+            # ID-figure Part
+            # Find the name of input ID-figure result box and using send_keys function to send ID-words
+            IDbox = self.driver.find_elements_by_name('homeCaptcha:securityCode')[0] 
+            IDbox.clear()
+            IDbox.send_keys(self.FigureID_sub())
+            
+            # Click confirm box 
+            self.driver.find_element_by_id('SubmitButton').click()   
+            check = self.CheckPage(self.driver,'查詢車次')
+            if check != -1:        
+                reset = self.driver.find_element_by_id('BookingS1Form_homeCaptcha_reCodeLink')
+                reset.click()
+        return check
+
+    def Part2_selectTrainNumber(self):
+        if self.earlyBird:                
+            disc = DISCOUNT()
+            disc.ID(self.VGGmodel,self.CatchingCountIMG()) 
+            index = disc.Index
+            trainIter = self.driver.find_elements_by_name('TrainQueryDataViewPanel:TrainGroup')
+            trainIter[index].click()
+        self.driver.find_element_by_name('SubmitButton').click() 
+        
+    def Part3_TickInformationAndConfirm(self,IDNumber,CellPhone):
+        # Part 3 : The information of ticket
+        # ID number 
+        idInput = self.driver.find_element_by_id('idNumber')
+        idInput.clear()
+        idInput.send_keys(IDNumber)
+        # Cellphone
+        CellInput = self.driver.find_element_by_id('phoneNumber')
+        CellInput.clear()
+        CellInput.send_keys(CellPhone)
+        # Agree
+        agree = self.driver.find_element_by_name('agree')
+        agree.click() 
+        # submit
+        submit = self.driver.find_element_by_id('isSubmit')
+        submit.click()
+        
+    def CatchingCountIMG(self):
+        self.driver.save_screenshot('f2.jpg')
+        eles =  self.driver.find_elements_by_tag_name("img")
+        kk = 0
+        for ele in eles: 
+            ll = ele.location['x']
+            rr = ele.location['x'] + ele.size['width']
+            top = ele.location['y']
+            bot = ele.location['y'] + ele.size['height']    
+            img = Image.open('f2.jpg')
+            img = img.crop((ll,top,rr,bot))
+            img = img.convert("RGB") 
+            img.save(os.path.join(os.getcwd(),'CmpIMG',('%02d' % kk) + '_IDFigure.jpg') )
+            kk = kk + 1
+        return kk
+
 
     def CatchingIDFigure(self,driver):
         driver.save_screenshot('f1.jpg')
@@ -98,64 +202,6 @@ class HSR():
         check_ = re.findall(rr,page)[0]
         check = check_.find(checkName) 
         return check
-
-
-    def Part1_InputInformation(self,driver):
-        check = 0     
-        # Setting the booked information 
-        # 1.Start and destination station setting
-        Start = Select(driver.find_element_by_name('selectStartStation'))
-        Destination = Select(driver.find_element_by_name('selectDestinationStation'))
-        Start.select_by_index(self.Station[self.startSatation])
-        Destination.select_by_index(self.Station[self.destinationStation])
-        
-        # 2.Date and time Setting 
-        # Date
-        TimeSpan = driver.find_element_by_id('toDate')
-        DateSetting = TimeSpan.find_element_by_name('toTimeInputField')
-        DateSetting.clear()
-        DateSetting.send_keys(self.Input_Date)
-        # Time
-        StartTime = Select(driver.find_element_by_name('toTimeTable'))
-        StartTime.select_by_index('2')
-        
-        while check != -1:            
-            # 3.Save Screenshot and catch ID-Figure
-            self.CatchingIDFigure(driver)
-            Img = HRSImgProcess()
-            Img.IMGProcess('IDFigure.jpg')
-            
-            # ID-figure Part
-            # Find the name of input ID-figure result box and using send_keys function to send ID-words
-            IDbox = driver.find_elements_by_name('homeCaptcha:securityCode')[0] 
-            IDbox.clear()
-            IDbox.send_keys(self.FigureID_sub())
-            
-            # Click confirm box 
-            driver.find_element_by_id('SubmitButton').click()   
-            check = self.CheckPage(driver,'查詢車次')
-            if check != -1:        
-                reset = driver.find_element_by_id('BookingS1Form_homeCaptcha_reCodeLink')
-                reset.click()
-        return check
-
-
-    def Part3_TickInformationAndConfirm(self,driver,IDNumber,CellPhone):
-        # Part 3 : The information of ticket
-        # ID number 
-        idInput = driver.find_element_by_id('idNumber')
-        idInput.clear()
-        idInput.send_keys(IDNumber)
-        # Cellphone
-        CellInput = driver.find_element_by_id('phoneNumber')
-        CellInput.clear()
-        CellInput.send_keys(CellPhone)
-        # Agree
-        agree = driver.find_element_by_name('agree')
-        agree.click() 
-        # submit
-        submit = driver.find_element_by_id('isSubmit')
-        submit.click()
  
     
     
@@ -164,15 +210,16 @@ startSatation = '左營'
 destinationStation = '桃園'
 year = 2018
 month =  10
-day = 18
+day = 16
 IDNumber = 'P123863062123'
-CellPhone = '0970393967123'
-IDNumber = 'P123863062'
-CellPhone = '056314222'
+CellPhone = '0970393967123' 
+trainNumber = 1234
+bookingMethod = 1
+earlyBird = 1
+timeIndex = 13
 
-
-book = HSR()
-book.booking(startSatation,destinationStation,year,month,day,IDNumber,CellPhone)
+BOOK = HSR()
+BOOK.booking(startSatation,destinationStation,year,month,day,timeIndex,IDNumber,CellPhone,bookingMethod,trainNumber,earlyBird)
  
 
 
@@ -182,37 +229,41 @@ book.booking(startSatation,destinationStation,year,month,day,IDNumber,CellPhone)
 
   
 
- 
-sad
-# Part 2 : Select Tarin Number
-select = driver.find_element_by_name('TrainQueryDataViewPanel:TrainGroup')
-radios = driver.find_elements_by_xpath("//*/input[@type='radio']")
-
-html = driver.page_source
-data = BeautifulSoup(html,'html.parser')
-aa = data.find_all('td')
-T_number = []
-T_timeSt = []
-T_timeEnd = []
-for vv in aa:
-    #print(vv.find('span',{'id':'QueryCode'}))
-    #print(vv.find('span'))
-    if vv.find('span',{'id':'QueryCode'}) != None:
-        vv2 = vv.find('span',{'id':'QueryCode'})
-        T_number.append(vv2.text) 
-    elif vv.find('span',{'id':'QueryDeparture'}) != None:
-        vv2 = vv.find('span',{'id':'QueryDeparture'})
-        T_timeSt.append(vv2.text)  
-    elif vv.find('span',{'id':'QueryArrival'}) != None:
-        vv2 = vv.find('span',{'id':'QueryArrival'})
-        T_timeEnd.append(vv2.text)       
-############# Add select car number code in the furture
-
-
-#############
-Next2 = driver.find_element_by_name('SubmitButton').click() 
- 
-Part3_TickInformationAndConfirm(driver,IDNumber,CellPhone)
+# =============================================================================
+#  
+# sad
+# # Part 2 : Select Tarin Number
+# select = driver.find_element_by_name('TrainQueryDataViewPanel:TrainGroup')
+# radios = driver.find_elements_by_xpath("//*/input[@type='radio']")
+# 
+# html = driver.page_source
+# data = BeautifulSoup(html,'html.parser')
+# aa = data.find_all('td')
+# T_number = []
+# T_timeSt = []
+# T_timeEnd = []
+# for vv in aa: 
+#     if vv.find('span',{'id':'QueryCode'}) != None:
+#         vv2 = vv.find('span',{'id':'QueryCode'})
+#         T_number.append(vv2.text) 
+#     elif vv.find('span',{'id':'QueryDeparture'}) != None:
+#         vv2 = vv.find('span',{'id':'QueryDeparture'})
+#         T_timeSt.append(vv2.text)  
+#     elif vv.find('span',{'id':'QueryArrival'}) != None:
+#         vv2 = vv.find('span',{'id':'QueryArrival'})
+#         T_timeEnd.append(vv2.text)       
+#         
+#         
+#         
+#         
+# ############# Add select car number code in the furture
+# 
+# 
+# #############
+# Next2 = driver.find_element_by_name('SubmitButton').click() 
+#  
+# Part3_TickInformationAndConfirm(driver,IDNumber,CellPhone)
+# =============================================================================
      
 
 
