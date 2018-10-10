@@ -1,7 +1,9 @@
-from A_Install import AutoInstall   
-# Auto-install miss packets
-AutoInstall()
-
+# =============================================================================
+# from A_Install import AutoInstall   
+# # Auto-install miss packets
+# AutoInstall()
+# 
+# =============================================================================
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select 
 import os
@@ -11,12 +13,11 @@ from PIL import Image
 import time
 from bs4 import BeautifulSoup 
 from A_SplitFigureOBJ import *
-import datetime
-asd
+import datetime 
 
 # Please Input the information below after search those from Railways website
 person_id = 'P123456789'            # 身份證字號
-Date = '2018-05-19'                 # 訂票時間 - 依照此格式輸入 yyyy-mm-dd
+Date = '2018-10-19'                 # 訂票時間 - 依照此格式輸入 yyyy-mm-dd
 from_station = '臺南'               # 出發車站
 to_station = '花蓮'                 # 到達車站
 train_no = 412                      # 車號
