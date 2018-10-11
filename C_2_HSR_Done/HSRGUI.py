@@ -1,11 +1,12 @@
 import tkinter as tk
 from tkinter import ttk
+import os
 
 
 
 class HSRGUI:
-    def __init__(self):
-        pass
+    def __init__(self): 
+        self.textPath = os.path.join(os.getcwd(),'Data','preData.txt')
     
     def GUI(self): 
         #### station information 
@@ -131,7 +132,7 @@ class HSRGUI:
        self.cboxEarly.configure(state='normal')  
 
     def saveData(self):
-        with open('preData.txt','w',encoding='big5') as f:   
+        with open(self.textPath,'w',encoding='big5') as f:   
             f.writelines(self.startName.get() + ",")
             f.writelines(self.destName.get() + ",")
             f.writelines(self.year.get() + ",")
@@ -145,7 +146,7 @@ class HSRGUI:
         self.win.destroy()
             
     def loadPreData(self):
-        with open('preData.txt','r') as f:
+        with open(self.textPath,'r') as f:
             data = f.readlines()
         return data        
 

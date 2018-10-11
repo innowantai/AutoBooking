@@ -1,12 +1,12 @@
 import os
 import re
+import cv2
 import PIL  
 import time
 import numpy as np  
 from HSRGUI import HSRGUI
 from DISCOUNT import DISCOUNT
-from PIL import Image
-from bs4 import BeautifulSoup
+from PIL import Image 
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from B_ImgProcessingOBJ import HRSImgProcess
@@ -27,6 +27,21 @@ class HSR():
         if not self.gui.flag:
             return False
         
+        ########## Path Setting ########## 
+        self.DataPath = os.path.join(os.getcwd(),"Data")
+        
+        self.Case = 'Case1'
+        self.IDFIgureName = self.Case + '.jpg'
+        self.IDFigurePath = os.path.join(os.path.join(self.DataPath , self.IDFIgureName))
+        self.OnlineIndexPath = os.path.join(self.DataPath , self.Case)
+        self.f1Path = os.path.join(self.DataPath, self.Case + '_1.jpg')
+        self.f2Path = os.path.join(self.DataPath, self.Case + '_2.jpg')
+        self.BaseIMGPath = os.path.join(self.DataPath,"BaseIMG")
+        self.CmpIMGPath  = os.path.join(self.DataPath,self.Case + "_CmpIMG")
+        if not os.path.exists(self.CmpIMGPath ):
+            os.makedirs(self.CmpIMGPath )
+        ##################################
+        
         Data = self.gui.getStationData()
         self.startSatation = Data[0]
         self.destinationStation = Data[1]
@@ -41,7 +56,7 @@ class HSR():
         self.IDNumber = IDNumber
         self.CellPhone = CellPhone
         
-        self.model = load_model('my_model_CNN_5000_2.h5') 
+        self.model = load_model(os.path.join(self.DataPath,'my_model_CNN_5000_2.h5')) 
         self.VGGmodel = VGG16(weights='imagenet', include_top=False) 
         self.Input_Date = str(self.year) + '/' + '%02d' % self.month + '/' + '%02d' % self.day
         
@@ -87,9 +102,9 @@ class HSR():
         
         while check != -1:            
             # 3.Save Screenshot and catch ID-Figure
-            self.CatchingIDFigure(self.driver)
+            self.CatchingIDFigure(self.driver) 
             Img = HRSImgProcess()
-            Img.IMGProcess('IDFigure.jpg')
+            Img.IMGProcess(self.IDFigurePath, self.OnlineIndexPath)
             
             # ID-figure Part
             # Find the name of input ID-figure result box and using send_keys function to send ID-words
@@ -107,9 +122,11 @@ class HSR():
 
     def Part2_selectTrainNumber(self):
         if self.earlyBird:                
-            disc = DISCOUNT()
-            disc.ID(self.VGGmodel,self.CatchingCountIMG()) 
-            index = disc.Index
+            #disc = DISCOUNT()
+            #disc.ID(self.VGGmodel,self.CatchingCountIMG()) 
+            #index = disc.Index
+            
+            index = self.getCountRatios(self.CatchingCountIMG())
             trainIter = self.driver.find_elements_by_name('TrainQueryDataViewPanel:TrainGroup')
             trainIter[index].click()
         self.driver.find_element_by_name('SubmitButton').click() 
@@ -132,7 +149,7 @@ class HSR():
         submit.click()
         
     def CatchingCountIMG(self):
-        self.driver.save_screenshot('f2.jpg')
+        self.driver.save_screenshot(self.f2Path)
         eles =  self.driver.find_elements_by_tag_name("img")
         kk = 0
         for ele in eles: 
@@ -140,25 +157,33 @@ class HSR():
             rr = ele.location['x'] + ele.size['width']
             top = ele.location['y']
             bot = ele.location['y'] + ele.size['height']    
-            img = Image.open('f2.jpg')
+            img = Image.open(self.f2Path)
             img = img.crop((ll,top,rr,bot))
             img = img.convert("RGB") 
-            img.save(os.path.join(os.getcwd(),'CmpIMG',('%02d' % kk) + '_IDFigure.jpg') )
+            img.save(os.path.join(self.CmpIMGPath,('%02d' % kk) + '_' + self.IDFIgureName) )
             kk = kk + 1
         return kk
 
+    def getCountRatios(self,num):  
+        
+        BaseImg = [ cv2.imread(os.path.join(self.BaseIMGPath,bb)) for bb in os.listdir(self.BaseIMGPath)]
+        CmpImg = [ cv2.imread(os.path.join(self.CmpIMGPath,bb)) for bb in os.listdir(self.CmpIMGPath)] 
+        IDres = []
+        IDres = np.array([ num for cc in CmpImg     for num,bb in enumerate(BaseImg)         if np.mean(bb - cc) == 0][:num])
+        Index = np.where(IDres == np.min(IDres))[0][0]
+        return Index
 
     def CatchingIDFigure(self,driver):
-        driver.save_screenshot('f1.jpg')
+        driver.save_screenshot(self.f1Path)
         ele = driver.find_element_by_id('BookingS1Form_homeCaptcha_passCode')       
         ll = ele.location['x']
         rr = ele.location['x'] + ele.size['width']
         top = ele.location['y']
         bot = ele.location['y'] + ele.size['height']    
-        img = Image.open('f1.jpg')
+        img = Image.open(self.f1Path)
         img = img.crop((ll,top,rr,bot))
         img = img.convert("RGB") 
-        img.save(os.path.join('IDFigure.jpg') )
+        img.save(self.IDFigurePath )
 
     def TransDatafromToCNN(self,data):
         Num = data.shape[0] 
@@ -176,9 +201,8 @@ class HSR():
             Res.append(vv.index(max(vv))) 
         return Res
 
-    def FigureID_sub(self):
-        Path = os.path.join(os.getcwd(),'0_OnlineIndex')
-        Files_ = os.listdir(Path)
+    def FigureID_sub(self): 
+        Files_ = os.listdir(self.OnlineIndexPath)
         Files = []
         kk = 1
         for ff in Files_:
@@ -188,7 +212,7 @@ class HSR():
         baseH = 50
         digits = []   
         for ii,jj in enumerate(Files): 
-            pil_image = PIL.Image.open(os.path.join(Path,jj)).convert('1') 
+            pil_image = PIL.Image.open(os.path.join(self.OnlineIndexPath,jj)).convert('1') 
             baseW = int(pil_image.size[1]/pil_image.size[0]*baseH)
             img = pil_image.resize((baseH,baseW),PIL.Image.ANTIALIAS)
             digits.append([vv for vv in img.getdata()])

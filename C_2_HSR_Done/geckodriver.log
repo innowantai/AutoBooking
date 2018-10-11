@@ -456,3 +456,1203 @@ Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvr
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
 [GPU 13104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539179129282	geckodriver	INFO	geckodriver 0.20.1
+1539179129290	geckodriver	INFO	Listening on 127.0.0.1:13453
+1539179132318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.D7jbJznlReZz"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539179134496	Marionette	INFO	Listening on port 13467
+1539179135435	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9164, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9164, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 4600, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539187306635	geckodriver	INFO	geckodriver 0.20.1
+1539187306643	geckodriver	INFO	Listening on 127.0.0.1:1157
+1539187309660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.dWcyauyU29B9"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539187311613	Marionette	INFO	Listening on port 1166
+1539187311667	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9136, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539187356130	geckodriver	INFO	geckodriver 0.20.1
+1539187356138	geckodriver	INFO	Listening on 127.0.0.1:1337
+1539187359177	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.lRvTIfi6t9tB"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539187360751	Marionette	INFO	Listening on port 1346
+1539187361188	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15668, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 15668, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 15668, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5548, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539187415346	geckodriver	INFO	geckodriver 0.20.1
+1539187415355	geckodriver	INFO	Listening on 127.0.0.1:1529
+1539187418364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.nykrIzS7v7TQ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539187419924	Marionette	INFO	Listening on port 1537
+1539187420411	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14868, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14868, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539187481521	geckodriver	INFO	geckodriver 0.20.1
+1539187481530	geckodriver	INFO	Listening on 127.0.0.1:1711
+1539187484557	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.3WLkGBh09UtP"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539187486109	Marionette	INFO	Listening on port 1720
+1539187486559	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9008, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 14808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539187554191	geckodriver	INFO	geckodriver 0.20.1
+1539187554200	geckodriver	INFO	Listening on 127.0.0.1:1899
+1539187557229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.HRyHZV2kr2a9"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539187558829	Marionette	INFO	Listening on port 1907
+1539187559239	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8324, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8324, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+pData\Local\openvr\openvrpaths.vrpath
+[Child 11348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12300, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 11064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+pe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4B0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1539187792985	geckodriver	INFO	geckodriver 0.20.1
+1539187792993	geckodriver	INFO	Listening on 127.0.0.1:2479
+1539187796014	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.ECwC4y7JJ1Ia"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539187797536	Marionette	INFO	Listening on port 2487
+1539187798017	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8684, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8684, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 1224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539188075942	geckodriver	INFO	geckodriver 0.20.1
+1539188075951	geckodriver	INFO	Listening on 127.0.0.1:2702
+1539188078992	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.brMSEg5opN1h"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539188080607	Marionette	INFO	Listening on port 2711
+1539188081002	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14064, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10252, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 10252, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 10252, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10252, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 16156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10252, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539188477591	geckodriver	INFO	geckodriver 0.20.1
+1539188477600	geckodriver	INFO	Listening on 127.0.0.1:2955
+1539188480590	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.59MCjunXsbUj"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539188482196	Marionette	INFO	Listening on port 2963
+1539188482624	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 14752, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 14752, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1539188551738	geckodriver	INFO	geckodriver 0.20.1
+1539188551747	geckodriver	INFO	Listening on 127.0.0.1:3134
+1539188554775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.liAS3RpnXEge"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539188556502	Marionette	INFO	Listening on port 3142
+1539188556815	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3312, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5148, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+1539250875937	geckodriver	INFO	geckodriver 0.20.1
+1539250875951	geckodriver	INFO	Listening on 127.0.0.1:1473
+1539250878962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.0iH6rqQZQtov"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539250882404	Marionette	INFO	Listening on port 1481
+1539250882646	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7024, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6404, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7024, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4B0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1539252464174	geckodriver	INFO	geckodriver 0.20.1
+1539252464183	geckodriver	INFO	Listening on 127.0.0.1:1783
+1539252467210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.wO6zxQeZ8zFY"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539252469100	Marionette	INFO	Listening on port 1791
+1539252469230	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5856, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6204, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5856, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539252487616	geckodriver	INFO	geckodriver 0.20.1
+1539252487625	geckodriver	INFO	Listening on 127.0.0.1:2028
+1539252490679	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.4Mtbq5zmSwYy"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539252492646	Marionette	INFO	Listening on port 2036
+1539252492686	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7760, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7460, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539252543372	geckodriver	INFO	geckodriver 0.20.1
+1539252543381	geckodriver	INFO	Listening on 127.0.0.1:2342
+1539252546410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.QKER2Dg2PLN1"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539252548312	Marionette	INFO	Listening on port 2350
+1539252548417	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7504, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7584, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7504, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7504, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1539252612075	geckodriver	INFO	geckodriver 0.20.1
+1539252612084	geckodriver	INFO	Listening on 127.0.0.1:2600
+1539252615122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.0tDhqqHhiCQl"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539252617064	Marionette	INFO	Listening on port 2608
+1539252617140	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8916, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539252936165	geckodriver	INFO	geckodriver 0.20.1
+1539252936174	geckodriver	INFO	Listening on 127.0.0.1:2860
+1539252939196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.bjsqzjGsw23Z"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539252941071	Marionette	INFO	Listening on port 2868
+1539252941207	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5780, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5780, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9032, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539253076024	geckodriver	INFO	geckodriver 0.20.1
+1539253076033	geckodriver	INFO	Listening on 127.0.0.1:3102
+1539253079070	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.C3vD9qaVRNmr"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253080935	Marionette	INFO	Listening on port 3110
+1539253081082	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6740, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4828, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5424, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539253221704	geckodriver	INFO	geckodriver 0.20.1
+1539253221713	geckodriver	INFO	Listening on 127.0.0.1:3265
+1539253224742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.sZ2zEZ7aAxqb"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253226590	Marionette	INFO	Listening on port 3273
+1539253226749	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4808, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4808, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539253290437	geckodriver	INFO	geckodriver 0.20.1
+1539253290446	geckodriver	INFO	Listening on 127.0.0.1:3392
+1539253293474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.V9HGUYVUp9Qd"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253295455	Marionette	INFO	Listening on port 3400
+1539253295504	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7924, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539253327794	geckodriver	INFO	geckodriver 0.20.1
+1539253327803	geckodriver	INFO	Listening on 127.0.0.1:3489
+1539253330822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.HXbVEtI4TSYA"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253332703	Marionette	INFO	Listening on port 3497
+1539253332842	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7224, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1628, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539253383236	geckodriver	INFO	geckodriver 0.20.1
+1539253383244	geckodriver	INFO	Listening on 127.0.0.1:3602
+1539253386283	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.ET8Q0xjky0kA"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253388187	Marionette	INFO	Listening on port 3610
+1539253388344	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7648, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7648, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539253509312	geckodriver	INFO	geckodriver 0.20.1
+1539253509321	geckodriver	INFO	Listening on 127.0.0.1:3721
+1539253512359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.Onz1ISYBrhik"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253514301	Marionette	INFO	Listening on port 3731
+1539253514379	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7208, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8676, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8676, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8068, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8676, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1539253611191	geckodriver	INFO	geckodriver 0.20.1
+1539253611200	geckodriver	INFO	Listening on 127.0.0.1:3913
+1539253614219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.cY0YBB3LSmW6"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253616114	Marionette	INFO	Listening on port 3921
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253616343	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4264, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8920, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 8920, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8920, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 2464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539253686065	geckodriver	INFO	geckodriver 0.20.1
+1539253686073	geckodriver	INFO	Listening on 127.0.0.1:4279
+1539253689103	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.eqBMgavtinq1"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253691082	Marionette	INFO	Listening on port 4287
+1539253691108	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 1128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1128, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 1128, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8724, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539253830162	geckodriver	INFO	geckodriver 0.20.1
+1539253830171	geckodriver	INFO	Listening on 127.0.0.1:4463
+1539253833200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.th2dvaxcfQKD"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539253835084	Marionette	INFO	Listening on port 4471
+1539253835223	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4636, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5380, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539254195019	geckodriver	INFO	geckodriver 0.20.1
+1539254195028	geckodriver	INFO	Listening on 127.0.0.1:4682
+1539254198040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.uVwTvEPjApPH"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254199934	Marionette	INFO	Listening on port 4691
+1539254200069	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4392, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4392, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539254252012	geckodriver	INFO	geckodriver 0.20.1
+1539254252020	geckodriver	INFO	Listening on 127.0.0.1:4779
+1539254255050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.bvF20lZBzt9S"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254257183	Marionette	INFO	Listening on port 4787
+1539254258164	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10220, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9812, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9812, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 10052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539254352059	geckodriver	INFO	geckodriver 0.20.1
+1539254352071	geckodriver	INFO	Listening on 127.0.0.1:4882
+1539254355052	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.7Aq7SOEksHje"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254357412	Marionette	INFO	Listening on port 4890
+1539254358213	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6336, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x130011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 3116, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539254438258	geckodriver	INFO	geckodriver 0.20.1
+1539254438274	geckodriver	INFO	Listening on 127.0.0.1:5039
+1539254441294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.XKcm50OwbU6R"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254443333	Marionette	INFO	Listening on port 5047
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254443365	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: CreateShaderResourceView failed for format87
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4164, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9856, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9856, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1539254472028	geckodriver	INFO	geckodriver 0.20.1
+1539254472037	geckodriver	INFO	Listening on 127.0.0.1:5134
+1539254475075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.cLTOsJq7GR3v"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254477066	Marionette	INFO	Listening on port 5142
+1539254477090	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4636, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 10124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539254537218	geckodriver	INFO	geckodriver 0.20.1
+1539254537227	geckodriver	INFO	Listening on 127.0.0.1:5285
+1539254540225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.jkQbZmtM33XQ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254542324	Marionette	INFO	Listening on port 5293
+1539254543421	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 332, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 332, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539254720852	geckodriver	INFO	geckodriver 0.20.1
+1539254720861	geckodriver	INFO	Listening on 127.0.0.1:5475
+1539254723860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.SvbS1o9i45r6"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254725951	Marionette	INFO	Listening on port 5485
+1539254726970	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8400, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539254775566	geckodriver	INFO	geckodriver 0.20.1
+1539254775574	geckodriver	INFO	Listening on 127.0.0.1:5599
+1539254793311	geckodriver	INFO	geckodriver 0.20.1
+1539254793325	geckodriver	INFO	Listening on 127.0.0.1:5606
+1539254796369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.LTz257em6Y6B"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254798549	Marionette	INFO	Listening on port 5614
+1539254799487	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7040, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8816, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539254852427	geckodriver	INFO	geckodriver 0.20.1
+1539254852436	geckodriver	INFO	Listening on 127.0.0.1:5804
+1539254855441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.ogPr2vtpUzMT"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539254857490	Marionette	INFO	Listening on port 5812
+1539254857562	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 416, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8068, Gecko_IOThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1539255292221	geckodriver	INFO	geckodriver 0.20.1
+1539255292230	geckodriver	INFO	Listening on 127.0.0.1:6024
+1539255295213	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.SVMYiQ2iqIig"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539255297702	Marionette	INFO	Listening on port 6032
+1539255298384	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x130011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+[Parent 9548, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8992, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539255512456	geckodriver	INFO	geckodriver 0.20.1
+1539255512464	geckodriver	INFO	Listening on 127.0.0.1:6218
+1539255515476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.SDpKerRSlYf2"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539255517524	Marionette	INFO	Listening on port 6226
+1539255518596	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6708, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6708, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1539255549248	geckodriver	INFO	geckodriver 0.20.1
+1539255549264	geckodriver	INFO	Listening on 127.0.0.1:6316
+1539255552293	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.oWHE7dJBmF0y"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539255554282	Marionette	INFO	Listening on port 6324
+[GFX1-]: CreateShaderResourceView failed for format87
+1539255554356	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: CreateShaderResourceView failed for format87
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2096, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3556, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539255671419	geckodriver	INFO	geckodriver 0.20.1
+1539255671428	geckodriver	INFO	Listening on 127.0.0.1:6502
+1539255674455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.5IAywuhUEC5x"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539255676417	Marionette	INFO	Listening on port 6511
+1539255676474	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 3116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2984, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539255821195	geckodriver	INFO	geckodriver 0.20.1
+1539255821204	geckodriver	INFO	Listening on 127.0.0.1:6688
+1539255824242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.meWGNCNK4DqR"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539255826736	Marionette	INFO	Listening on port 6697
+1539255827434	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8900, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2924, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 2924, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2924, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539255991498	geckodriver	INFO	geckodriver 0.20.1
+1539255991506	geckodriver	INFO	Listening on 127.0.0.1:6909
+1539255994499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.TQtKyn6Qn9BJ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539255996978	Marionette	INFO	Listening on port 6917
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539255997608	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2132, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8904, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7604, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539256097522	geckodriver	INFO	geckodriver 0.20.1
+1539256097530	geckodriver	INFO	Listening on 127.0.0.1:7094
+1539256100540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.eaKW0wG9xo8t"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256102550	Marionette	INFO	Listening on port 7102
+1539256102586	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6720, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 2976, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6720, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9324, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539256248595	geckodriver	INFO	geckodriver 0.20.1
+1539256248604	geckodriver	INFO	Listening on 127.0.0.1:7311
+1539256251624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.wEk9PyfR3O3e"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256253819	Marionette	INFO	Listening on port 7319
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256254744	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9820, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9604, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1664, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9604, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9552, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539256293032	geckodriver	INFO	geckodriver 0.20.1
+1539256293041	geckodriver	INFO	Listening on 127.0.0.1:7571
+1539256296083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.EkLemxGIaZXh"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256298067	Marionette	INFO	Listening on port 7579
+1539256298113	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10004, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9624, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 9624, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9624, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4B0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1539256386589	geckodriver	INFO	geckodriver 0.20.1
+1539256386598	geckodriver	INFO	Listening on 127.0.0.1:7707
+1539256389606	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.B9bmTwZJpGwd"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256391678	Marionette	INFO	Listening on port 7716
+1539256392750	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4468, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4468, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 5440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539256458909	geckodriver	INFO	geckodriver 0.20.1
+1539256458919	geckodriver	INFO	Listening on 127.0.0.1:7923
+1539256461953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.JG8SfZQKBTCx"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256463835	Marionette	INFO	Listening on port 7931
+1539256463961	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7476, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9268, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7476, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7476, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539256500259	geckodriver	INFO	geckodriver 0.20.1
+1539256500268	geckodriver	INFO	Listening on 127.0.0.1:8100
+1539256503281	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.KGf3prTFd0SQ"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256505299	Marionette	INFO	Listening on port 8109
+1539256505413	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8916, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+[Parent 8916, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8720, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 8916, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 4472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539256608390	geckodriver	INFO	geckodriver 0.20.1
+1539256608401	geckodriver	INFO	Listening on 127.0.0.1:8144
+1539256611385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.AwwATO1DujH1"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256613491	Marionette	INFO	Listening on port 8152
+1539256614487	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x4B0004,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1539256721337	geckodriver	INFO	geckodriver 0.20.1
+1539256721345	geckodriver	INFO	Listening on 127.0.0.1:8331
+1539256724338	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.g4jzyO4l3KOB"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256726667	Marionette	INFO	Listening on port 8339
+1539256727510	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6352, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7796, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 3396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539256792821	geckodriver	INFO	geckodriver 0.20.1
+1539256792829	geckodriver	INFO	Listening on 127.0.0.1:8446
+1539256795838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.rfRRZ2QzPJy6"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256797810	Marionette	INFO	Listening on port 8454
+1539256797861	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8232, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1539256863320	geckodriver	INFO	geckodriver 0.20.1
+1539256863328	geckodriver	INFO	Listening on 127.0.0.1:8558
+1539256866357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.VGb8zkq7yawW"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256868548	Marionette	INFO	Listening on port 8566
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256869491	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6188, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[Child 176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6188, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Wantai\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8576, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1539256922300	geckodriver	INFO	geckodriver 0.20.1
+1539256922308	geckodriver	INFO	Listening on 127.0.0.1:8674
+1539256925339	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Wantai\\AppData\\Local\\Temp\\rust_mozprofile.vUTlvtOUg0pK"
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+[GFX1-]: CreateShaderResourceView failed for format87
+1539256927303	Marionette	INFO	Listening on port 8682
+1539256927382	Marionette	WARN	TLS certificate errors will be ignored for this session

@@ -13,10 +13,10 @@ class HRSImgProcess():
     def __int__(self):
         pass
         
-    def IMGProcess(self,fileName):
-        try:    
-            Name = fileName.split('.')[0]
-            oriimg = cv2.imread(os.path.join(os.getcwd(),fileName))  
+    def IMGProcess(self,ImgPath,SavePath):
+        try:     
+            Name = os.path.split(ImgPath)[1].split('.')[0]
+            oriimg = cv2.imread(ImgPath)  
             img = self.ImageCurveProcess(oriimg) 
             img2 = self.takeOffBoundary(img)
                           
@@ -27,7 +27,7 @@ class HRSImgProcess():
             
             fig = self.splitFigure(data)
             result = self.CatchingsplitFigure(fig) 
-            SaveCreat = os.path.join(os.getcwd(),'0_OnlineIndex') 
+            SaveCreat = os.path.join(SavePath) 
             #matplotlib.use('Agg')
             if not os.path.exists(SaveCreat):
                 os.mkdir(SaveCreat) 
@@ -35,7 +35,7 @@ class HRSImgProcess():
              
             for kk,ff in enumerate(result):
                 if kk <= 3 : 
-                    saveName = os.path.join(os.getcwd(),'0_OnlineIndex', Name + '_'+ str(kk) + '.jpg')    
+                    saveName = os.path.join(SavePath, Name + '_'+ str(kk) + '.jpg')    
                     plt.figure(figsize=(6,4), dpi = 100)
                     plt.imshow(ff) 
                     plt.savefig(saveName,dpi=100)   
@@ -258,8 +258,8 @@ class HRSImgProcess():
 
 
 
-Img = HRSImgProcess()
-Img.IMGProcess('IDFigure.jpg')
+#Img = HRSImgProcess()
+#Img.IMGProcess('IDFigure.jpg')
 
 
 
