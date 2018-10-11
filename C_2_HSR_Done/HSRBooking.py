@@ -91,26 +91,29 @@ class HSR():
         # Booking methods
         method1 = self.driver.find_element_by_id('bookingMethod_0')
         method2 = self.driver.find_element_by_id('bookingMethod_1')
-        trainNumber = self.driver.find_element_by_name('toTrainIDInputField')
+        trainNumber = self.driver.find_element_by_name('toTrainIDInputField') 
         if self.bookingMethod == 1:
-            method1.click()
-            if self.earlyBird == 1:
-                self.driver.find_element_by_id('onlyQueryOffPeakCheckBox').click()
+            method1.click()  
+            
         elif self.bookingMethod == 2:
             method2.click()
             trainNumber.send_keys(self.trainNumber)
         
-        while check != -1:            
+        while check != -1:    
+            if self.earlyBird == 1 and not self.driver.find_element_by_id('onlyQueryOffPeakCheckBox').is_selected():
+                self.driver.find_element_by_id('onlyQueryOffPeakCheckBox').click()
+                
             # 3.Save Screenshot and catch ID-Figure
             self.CatchingIDFigure(self.driver) 
             Img = HRSImgProcess()
-            Img.IMGProcess(self.IDFigurePath, self.OnlineIndexPath)
+            Img.IMGProcess(self.IDFigurePath, self.OnlineIndexPath) 
             
             # ID-figure Part
             # Find the name of input ID-figure result box and using send_keys function to send ID-words
             IDbox = self.driver.find_elements_by_name('homeCaptcha:securityCode')[0] 
             IDbox.clear()
             IDbox.send_keys(self.FigureID_sub())
+            del IDbox
             
             # Click confirm box 
             self.driver.find_element_by_id('SubmitButton').click()   
@@ -118,6 +121,7 @@ class HSR():
             if check != -1:        
                 reset = self.driver.find_element_by_id('BookingS1Form_homeCaptcha_reCodeLink')
                 reset.click()
+                del reset
         return check
 
     def Part2_selectTrainNumber(self):
