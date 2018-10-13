@@ -54,22 +54,30 @@ class HSR():
         self.bookingMethod = Data[8]
         
         self.IDNumber = IDNumber
-        self.CellPhone = CellPhone
-        
+        self.CellPhone = CellPhone 
         self.model = load_model(os.path.join(self.DataPath,'my_model_CNN_5000_2.h5')) 
         self.VGGmodel = VGG16(weights='imagenet', include_top=False) 
         self.Input_Date = str(self.year) + '/' + '%02d' % self.month + '/' + '%02d' % self.day
         
-        self.driver = webdriver.Firefox()
-        self.driver.get('https://irs.thsrc.com.tw/IMINT/')
         
-        self.Part1_InputInformation()  
+        self.Loop();
         
-        self.Part2_selectTrainNumber()
-        
-        self.Part3_TickInformationAndConfirm(self.IDNumber,self.CellPhone)
+    def Loop(self):
+        try:            
+            self.Start = True
+            while self.Start:             
+                self.t1 = time.time()   
+                self.driver = webdriver.Firefox()
+                self.driver.get('https://irs.thsrc.com.tw/IMINT/')            
+                self.Start = self.Part1_InputInformation()  
+            self.Part2_selectTrainNumber() 
+            self.Part3_TickInformationAndConfirm(self.IDNumber,self.CellPhone) 
+        except:
+            self.driver.quit()
+            self.Loop()
 
     def Part1_InputInformation(self):
+        self.driver.minimize_window()
         check = 0     
         # Setting the booked information 
         # 1.Start and destination station setting
@@ -97,9 +105,14 @@ class HSR():
             
         elif self.bookingMethod == 2:
             method2.click()
-            trainNumber.send_keys(self.trainNumber)
+            trainNumber.send_keys(self.trainNumber) 
         
         while check != -1:    
+            
+            if time.time() - self.t1 >= 1800: 
+                self.driver.quit()
+                return True
+            
             if self.earlyBird == 1 and not self.driver.find_element_by_id('onlyQueryOffPeakCheckBox').is_selected():
                 self.driver.find_element_by_id('onlyQueryOffPeakCheckBox').click()
                 
@@ -122,7 +135,7 @@ class HSR():
                 reset = self.driver.find_element_by_id('BookingS1Form_homeCaptcha_reCodeLink')
                 reset.click()
                 del reset
-        return check
+        return False
 
     def Part2_selectTrainNumber(self):
         if self.earlyBird:                
