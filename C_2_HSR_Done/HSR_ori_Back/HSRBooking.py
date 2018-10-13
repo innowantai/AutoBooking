@@ -70,7 +70,8 @@ class HSR():
                 self.driver = webdriver.Firefox()
                 self.driver.get('https://irs.thsrc.com.tw/IMINT/')            
                 self.Start = self.Part1_InputInformation()  
-            self.Part2_selectTrainNumber() 
+            if self.bookingMethod == 1:
+                self.Part2_selectTrainNumber() 
             self.Part3_TickInformationAndConfirm(self.IDNumber,self.CellPhone) 
         except:
             self.driver.quit()
